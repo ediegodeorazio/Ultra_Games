@@ -1,0 +1,5 @@
+[
+    {"id": "1", "nombre": "Pc", "imagen": "./img/pc01.png"},
+    {"id": "2", "nombre": "PlayStation", "imagen": "./img/ps501.png"},
+    {"id": "3", "nombre": "Xbox", "imagen": "./img/xbox01.png"}
+]
