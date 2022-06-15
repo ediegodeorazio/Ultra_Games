@@ -35,7 +35,7 @@ document.querySelector('#btnEnviarForm').addEventListener("click", validarFormul
 
 function mensajeEnviado() {
     Toastify({
-        text: "El email ingresado no es válido",
+        text: "Se ha enviado el Email de confirmacion correctamente",
         duration: 2000,
         gravity: 'bottom',
         style: {
