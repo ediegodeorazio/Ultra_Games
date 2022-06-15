@@ -34,16 +34,15 @@ document.querySelector('#btnEnviarForm').addEventListener("click", validarFormul
 // Email JS
 
 function mensajeEnviado() {
-    Swal.fire({
-        position: 'bottom-end',
-        text: 'Hemos enviado un email confirmando tu pedido correctamente',
-        color: 'black',
-        background: '#2DF216',
-        showConfirmButton: false,
-        width: '21vw',
-        timer: 2000
-    })
-
+    Toastify({
+        text: "El email ingresado no es válido",
+        duration: 2000,
+        gravity: 'bottom',
+        style: {
+            background: '#9edc12',
+            color: "black",
+        }
+    }).showToast();
 }
 
 emailjs.init('P6GdZC-ZfzuCo0Vbf');
@@ -73,8 +72,8 @@ document.getElementById('form')
                     gravity: 'bottom',
                     style: {
                         background: '#E16F3D',
-                        color:"black",
+                        color: "black",
                     }
-                    }).showToast();
+                }).showToast();
             });
     });
