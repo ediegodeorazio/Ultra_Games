@@ -54,7 +54,7 @@ function mostrarEnFinalizarCompra(){
                 </div>
             </div>
             `;
-            divResumenHTML += `<input type="text" name="totalpedido" value="Total: ${total}">`;
+            divResumenHTML += `<input type="text" name="totalpedido" value="Total: $${total}">`;
             resumenCompra.innerHTML = resumenCompraHTML;
             divResumen.innerHTML += divResumenHTML;
         }
